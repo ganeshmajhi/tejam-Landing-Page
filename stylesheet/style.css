@@ -93,15 +93,24 @@ footer{
 }
 
 .plane-icon{
-    width: 30px;
+    width: 50px;
     height:30px;
     background-color: #a099b3;
     margin-left:10px;
     padding: 9px;
+    text-align: center;
 }
 .iconcs{
     color:#ffffff;
     border:1px solid #ffffff;
     border-radius: 50%;
     padding: 40%;
+}
+.footerlogo{
+    font-size:34px;
+    vertical-align: center;
+    background: -webkit-linear-gradient(#01dfd0, #28486b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
