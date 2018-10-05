@@ -22,12 +22,13 @@ header h2::after {
 .navbar-brand{
     color:#10b9b3 !important;
 }
-.nav-link{
+.nav-dark .nav-link{
     font-size:12px;
     font-weight: 600;
     color:#ffffff;
+    padding: .5rem 1rem;
 }
-.nav-link:hover{
+.nav-dark .nav-link:hover{
     color:#10b9b3 !important;
 }
 .button{
@@ -55,18 +56,23 @@ header h2::after {
     background-image: url('../img/bg-team.jpg') ;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 650px;
-    /* background: #10b9b3; */
+    min-height: 650px;
+    padding: 0 30px 30px;
+}
+
+.linethree {
+  position: relative;
 }
 
 .linethree::after{
-    content:"____________";
+    content: "";
     position: absolute;
-    margin-top: 20px;
-    margin-left:-285px;
-    color: #ffffff !important;
-    font-weight: 600;
-    
+    width: 100px;
+    left: 50%;
+    bottom: -10px;
+    margin-left: -50px;
+    border-bottom: 1px solid white;
+    height: 1px;
 }
 
 .bgnew{
@@ -75,6 +81,14 @@ header h2::after {
 .button5{
     text-align: center;
 }
+
+
+#ourwork .col-sm-12 img {
+  margin: auto;
+  display: block;
+}
+
+
 
 #testimonial {
     
