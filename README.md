@@ -22,5 +22,4 @@ See also the list of [contributors](https://github.com/ganeshmajhi/tejam-Landing
 ## License 
 ![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
+This project is licensed under the MIT License. 
