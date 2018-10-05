@@ -84,3 +84,24 @@ header h2::after {
         height: 550px;
         /* background: #252248; */
 }
+
+footer{
+    background-image: url('../img/bg-footer.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:400px;
+}
+
+.plane-icon{
+    width: 30px;
+    height:30px;
+    background-color: #a099b3;
+    margin-left:10px;
+    padding: 9px;
+}
+.iconcs{
+    color:#ffffff;
+    border:1px solid #ffffff;
+    border-radius: 50%;
+    padding: 40%;
+}
