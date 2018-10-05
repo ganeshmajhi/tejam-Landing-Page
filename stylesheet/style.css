@@ -82,5 +82,5 @@ header h2::after {
         background-size: cover;
         background-repeat: no-repeat;
         height: 550px;
-        background: #252248;
+        /* background: #252248; */
 }
