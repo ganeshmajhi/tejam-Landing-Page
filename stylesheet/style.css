@@ -114,3 +114,39 @@ footer{
   -webkit-text-fill-color: transparent;
 
 }
+
+@media screen and (max-width:480px){
+    header{
+        background-color: #2e284f;
+        height: 650px;
+        /* background: url("img/bg-image.jpg") no-repeat fixed center; */
+    } 
+
+    header h2::after {
+        content:"________";
+        position: absolute;
+        margin-top: 20px;
+        margin-left:-110px;
+        color: #10b9b3 !important;
+        font-weight: bold;
+    }
+
+    .starimage{
+        text-align: center;
+    }
+
+    .linetwo::after{
+        content:"________";
+        position: absolute;
+        margin-top: 20px;
+        margin-left:-145px;
+        color: #000000 !important;
+        font-weight: 600;
+        
+    }
+    .small-side{
+        margin-right:20px;
+    }
+    
+    
+}
