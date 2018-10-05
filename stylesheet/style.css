@@ -1,0 +1,77 @@
+
+
+
+header{
+    background-color: #2e284f;
+    height: 450px;
+    /* background: url("img/bg-image.jpg") no-repeat fixed center; */
+}
+header h2,p{
+    text-align: center;
+    color: #ffffff;
+    
+}
+header h2::after {
+    content:"________";
+    position: absolute;
+    margin-top: 20px;
+    margin-left:-300px;
+    color: #10b9b3 !important;
+    font-weight: bold;
+}
+.navbar-brand{
+    color:#10b9b3 !important;
+}
+.nav-link{
+    font-size:12px;
+    font-weight: 600;
+    color:#ffffff;
+}
+.nav-link:hover{
+    color:#10b9b3 !important;
+}
+.button{
+    text-align: center;
+    font-weight: 600;
+    color:#10b9b3 !important;
+}
+.somehei{
+    height: 50px;
+}
+.linetwo::after{
+    content:"________";
+    position: absolute;
+    margin-top: 20px;
+    margin-left:-335px;
+    color: #000000 !important;
+    font-weight: 600;
+    
+}
+
+.aligncen{
+    text-align:center;
+}
+#team{
+    background-image: url('../img/bg-team.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    /* background: #10b9b3; */
+}
+
+.linethree::after{
+    content:"____________";
+    position: absolute;
+    margin-top: 20px;
+    margin-left:-285px;
+    color: #ffffff !important;
+    font-weight: 600;
+    
+}
+
+.bgnew{
+    background-color: #252248;
+}
+.button5{
+    text-align: center;
+}
