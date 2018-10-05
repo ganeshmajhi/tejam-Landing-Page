@@ -76,20 +76,10 @@ header h2::after {
     text-align: center;
 }
 
-#testimonial{
+#testimonial {
     
         background-image: url('../img/bg-testimonial.jpg') ;
         background-size: cover;
         background-repeat: no-repeat;
         height: 550px;
-        /* background: #10b9b3; */
-    }
-
-
-.carosalheight{
-    height: 300px;
-}
-
-.textcaro{
-    color:white;
 }
