@@ -23,3 +23,11 @@ See also the list of [contributors](https://github.com/ganeshmajhi/tejam-Landing
 ![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)
 
 This project is licensed under the MIT License. 
+
+## Description
+
+This template is a frontend for creative agency website which list outs their story, a video clip, expertised areas, hiring details and contact details.
+
+## Template Source
+
+ https://ganeshmajhi.github.io/tejam-Landing-Page/
