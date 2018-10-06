@@ -1,5 +1,7 @@
 
-
+body {
+    overflow-x: hidden;
+}
 
 header{
     background-color: #2e284f;
@@ -9,7 +11,7 @@ header{
 header h2,p{
     text-align: center;
     color: #ffffff;
-    
+
 }
 header h2::after {
     content:"________";
@@ -46,7 +48,7 @@ header h2::after {
     margin-left:-335px;
     color: #000000 !important;
     font-weight: 600;
-    
+
 }
 
 .aligncen{
@@ -84,14 +86,15 @@ header h2::after {
 
 
 #ourwork .col-sm-12 img {
-  margin: auto;
+  margin: 0 auto 1vh;
+  width: 100%;
   display: block;
 }
 
 
 
 #testimonial {
-    
+
         background-image: url('../img/bg-testimonial.jpg') ;
         background-size: cover;
         background-repeat: no-repeat;
@@ -205,7 +208,7 @@ footer p{
         background-color: #2e284f;
         height: 650px;
         /* background: url("img/bg-image.jpg") no-repeat fixed center; */
-    } 
+    }
 
     header h2::after {
         content:"________";
@@ -227,11 +230,11 @@ footer p{
         margin-left:-145px;
         color: #000000 !important;
         font-weight: 600;
-        
+
     }
     .small-side{
         margin-right:20px;
     }
-    
-    
+
+
 }
