@@ -105,7 +105,9 @@ footer{
     background-repeat:no-repeat;
     height:400px;
 }
-
+footer p{
+    text-align: left;
+}
 .plane-icon{
     width: 50px;
     height:30px;
@@ -127,6 +129,75 @@ footer{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
+}
+.footer-bottom-part #footer-copyright p{
+    text-align:right;
+}
+@media(max-width: 1024px){
+    footer{
+        background-image: url('../img/bg-footer.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;
+    }
+    footer #footer-company-address h6, footer #footer-company-address p{
+        text-align: center;
+    }
+    #footer-newsletter h6, #footer-newsletter form{
+        text-align: center;
+    }
+    .iconcs{
+        padding: 10px;
+    }
+    #footer-social-links{
+        width: 50%;
+        margin: 0 auto;
+    }
+    #footer-social-links div{
+        width: auto;
+        padding: 10px;
+    }
+    .footer-bottom-part #footer-site-regulations p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .footer-bottom-part #footer-copyright p{
+        text-align: center;
+        font-size: 13px;
+    }
+}
+@media(max-width: 500px){
+    footer{
+        background-image: url('../img/bg-footer.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;
+    }
+    footer #footer-company-address h6, footer #footer-company-address p{
+        text-align: center;
+    }
+    #footer-newsletter h6, #footer-newsletter form{
+        text-align: center;
+    }
+    .iconcs{
+        padding: 10px;
+    }
+    #footer-social-links{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #footer-social-links div{
+        width: auto;
+        padding: 10px;
+    }
+    .footer-bottom-part #footer-site-regulations p{
+        text-align: center;
+        font-size: 15px;
+    }
+    .footer-bottom-part #footer-copyright p{
+        text-align: center;
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width:480px){
