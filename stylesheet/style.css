@@ -109,11 +109,23 @@ footer{
     height:400px;
 }
 
+.footer-input{
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-size: 12px;
+    width: 75%;
+}
+
+.plane {
+    float: right;
+}
+
 .plane-icon{
     width: 50px;
-    height:30px;
+    height:37px;
     background-color: #a099b3;
-    margin-left:10px;
+    margin: 0 auto;
     padding: 9px;
     text-align: center;
 }
@@ -123,14 +135,31 @@ footer{
     border-radius: 50%;
     padding: 40%;
 }
+
+.fa-map-marker {
+    padding-right: 5px;
+}
 .footerlogo{
     font-size:34px;
     vertical-align: center;
     background: -webkit-linear-gradient(#01dfd0, #28486b);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+.footer-logo-img {
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.mt-5 p{
+    text-align: left;
+}
+
+.copyright-content p{
+    text-align: right !important;
+}
+
 
 @media screen and (max-width:480px){
     header{
